@@ -6,7 +6,7 @@
 In fereastra Solution Explorer,folderele sunt organizate dupa cum urmeaza:
 --Singleton:
        *CFileManager se ocupa cu gestionarea(citirea/scrierea)
-           tuturor fisierelor text ce vor fi utilizate in cadrul programului.
+           tuturor fisierelor text ce vor fi utilizate in cadrul programului.  
        *CBooking gestioneaza instantele de clienti si locatii(cazari/obiective turistice/restaurante) este responsabila pentru initializarea si 
          legatura dintre acestea.
 --Utilizatori:
