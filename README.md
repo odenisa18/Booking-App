@@ -1,7 +1,7 @@
 # MTA TRAVELER: The Trip Assistant You Know You Need ✈️
 
 ## Cuprins 📑
-- [Descriere 📖](#descriere)
+- [Descriere 📖](#Descriere)
 - [Structura Folderelor 🗂️](#structura-folderelor)
   - [Singleton 🧑‍💻](#singleton)
   - [Utilizatori 👤](#utilizatori)
