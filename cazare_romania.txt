@@ -1,0 +1,6 @@
+Clasificare:3 stele
+Animale de companie:Permise
+Numar de camere:30
+Tipuri de camere:3,Single-150,Double-250,Family-400
+Perioade aglomerate:2,12.03.2025, 27.04.2025
+Perioade libere:2,23.04.2025, 24.07.2025

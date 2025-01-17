@@ -1,0 +1,5 @@
+Arseni Stefan,p@rol@123,27,100000 EURO,arsenistefan.txt
+Olaru Denisa,#denisuk##,20,40000 RON,olarudenisa.txt
+Muscalu Mara,p1s1cuta,20,2000 RON,muscalumara.txt
+Stefan Andreea,andr33aaa,20,3780 EURO,stefanandreea.txt
+Ivan Florentin,eusuntivan,20,12000 RON,ivanflorentin.txt

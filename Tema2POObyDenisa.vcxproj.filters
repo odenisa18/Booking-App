@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Utilizatori">
+      <UniqueIdentifier>{b9a4aea3-acc8-4b28-ae7e-5e9827f92e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Locatii">
+      <UniqueIdentifier>{f9d1bc98-bd07-40fc-80b3-50ef6e2324c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Singleton">
+      <UniqueIdentifier>{1e2b0021-7ac6-47aa-921c-468bd3e5198e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Singleton">
+      <UniqueIdentifier>{6d63d96c-1777-4af3-8767-ea638f98d1e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\main">
+      <UniqueIdentifier>{3461ed72-a70e-41b4-bdec-80ac04073cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Locatii">
+      <UniqueIdentifier>{9bbfdd62-9660-41c3-9a4f-ba58f6984256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilizatori">
+      <UniqueIdentifier>{be7fbdcb-2c4f-47ea-a5fd-80d80615a7b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptii">
+      <UniqueIdentifier>{1595cdad-407f-4b27-94bd-c5b4e78ba57b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptii">
+      <UniqueIdentifier>{6e904f43-b5d0-4ec2-929e-9651afea2b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fisiere Program">
+      <UniqueIdentifier>{eb0cbd1a-73c4-40b3-aff6-37e7516d10ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fisiere Program\Cazari">
+      <UniqueIdentifier>{430458f8-d516-4b2f-89b1-028b47b53325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fisiere Program\Obiective Turistice">
+      <UniqueIdentifier>{7485a551-788f-4adb-9f1b-59b1a73fea18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fisiere Program\Restaurante">
+      <UniqueIdentifier>{3878084e-8dc2-4e5d-aa7c-ca844c2296a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fisiere Program\Utilizatori">
+      <UniqueIdentifier>{b815ea9c-10eb-4776-9160-7202bf7ee0e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ALocatie.cpp">
+      <Filter>Source Files\Locatii</Filter>
+    </ClCompile>
+    <ClCompile Include="AUtilizator.cpp">
+      <Filter>Source Files\Utilizatori</Filter>
+    </ClCompile>
+    <ClCompile Include="CBooking.cpp">
+      <Filter>Source Files\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="CCazare.cpp">
+      <Filter>Source Files\Locatii</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileManager.cpp">
+      <Filter>Source Files\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="CObiectiv.cpp">
+      <Filter>Source Files\Locatii</Filter>
+    </ClCompile>
+    <ClCompile Include="CUtilizator.cpp">
+      <Filter>Source Files\Utilizatori</Filter>
+    </ClCompile>
+    <ClCompile Include="ILocatie.cpp">
+      <Filter>Source Files\Locatii</Filter>
+    </ClCompile>
+    <ClCompile Include="CRestaurant.cpp">
+      <Filter>Source Files\Locatii</Filter>
+    </ClCompile>
+    <ClCompile Include="IUtilizator.cpp">
+      <Filter>Source Files\Utilizatori</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlanificator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AExceptii.cpp">
+      <Filter>Source Files\Exceptii</Filter>
+    </ClCompile>
+    <ClCompile Include="CExceptieCreareLocatie.cpp">
+      <Filter>Source Files\Exceptii</Filter>
+    </ClCompile>
+    <ClCompile Include="placesMaker.cpp">
+      <Filter>Source Files\Locatii</Filter>
+    </ClCompile>
+    <ClCompile Include="PortofelElectronic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CExceptieDeschidereFisierContent.cpp">
+      <Filter>Source Files\Exceptii</Filter>
+    </ClCompile>
+    <ClCompile Include="CExceptieSalvareDate.cpp">
+      <Filter>Source Files\Exceptii</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ALocatie.h">
+      <Filter>Header Files\Locatii</Filter>
+    </ClInclude>
+    <ClInclude Include="AUtilizator.h">
+      <Filter>Header Files\Utilizatori</Filter>
+    </ClInclude>
+    <ClInclude Include="CCazare.h">
+      <Filter>Header Files\Locatii</Filter>
+    </ClInclude>
+    <ClInclude Include="CObiectiv.h">
+      <Filter>Header Files\Locatii</Filter>
+    </ClInclude>
+    <ClInclude Include="CRestaurant.h">
+      <Filter>Header Files\Locatii</Filter>
+    </ClInclude>
+    <ClInclude Include="IUtilizator.h">
+      <Filter>Header Files\Utilizatori</Filter>
+    </ClInclude>
+    <ClInclude Include="ILocatie.h">
+      <Filter>Header Files\Locatii</Filter>
+    </ClInclude>
+    <ClInclude Include="CUtilizator.h">
+      <Filter>Header Files\Utilizatori</Filter>
+    </ClInclude>
+    <ClInclude Include="CBooking.h">
+      <Filter>Header Files\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileManager.h">
+      <Filter>Header Files\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlanificator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AExceptii.h">
+      <Filter>Header Files\Exceptii</Filter>
+    </ClInclude>
+    <ClInclude Include="CExceptieCreareLocatie.h">
+      <Filter>Header Files\Exceptii</Filter>
+    </ClInclude>
+    <ClInclude Include="placesMaker.h">
+      <Filter>Header Files\Locatii</Filter>
+    </ClInclude>
+    <ClInclude Include="PortofelElectronic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CExceptieDeschidereFisierContent.h">
+      <Filter>Header Files\Exceptii</Filter>
+    </ClInclude>
+    <ClInclude Include="CExceptieSalvareDate.h">
+      <Filter>Header Files\Exceptii</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="cazare_franta.txt">
+      <Filter>Resource Files\Fisiere Program\Cazari</Filter>
+    </Text>
+    <Text Include="cazare_spania.txt">
+      <Filter>Resource Files\Fisiere Program\Cazari</Filter>
+    </Text>
+    <Text Include="cazare_romania.txt">
+      <Filter>Resource Files\Fisiere Program\Cazari</Filter>
+    </Text>
+    <Text Include="locatii.txt">
+      <Filter>Resource Files\Fisiere Program\Cazari</Filter>
+    </Text>
+    <Text Include="restaurant_romania.txt">
+      <Filter>Resource Files\Fisiere Program\Restaurante</Filter>
+    </Text>
+    <Text Include="restaurant_franta.txt">
+      <Filter>Resource Files\Fisiere Program\Restaurante</Filter>
+    </Text>
+    <Text Include="obiectiv_turistic_romania.txt">
+      <Filter>Resource Files\Fisiere Program\Obiective Turistice</Filter>
+    </Text>
+    <Text Include="obiectiv_turistic_franta.txt">
+      <Filter>Resource Files\Fisiere Program\Obiective Turistice</Filter>
+    </Text>
+    <Text Include="obiectiv_turistic_italia.txt">
+      <Filter>Resource Files\Fisiere Program\Obiective Turistice</Filter>
+    </Text>
+    <Text Include="Users.txt">
+      <Filter>Resource Files\Fisiere Program\Utilizatori</Filter>
+    </Text>
+    <Text Include="arsenistefan.txt">
+      <Filter>Resource Files\Fisiere Program\Utilizatori</Filter>
+    </Text>
+    <Text Include="olarudenisa.txt">
+      <Filter>Resource Files\Fisiere Program\Utilizatori</Filter>
+    </Text>
+    <Text Include="muscalumara.txt">
+      <Filter>Resource Files\Fisiere Program\Utilizatori</Filter>
+    </Text>
+    <Text Include="stefanandreea.txt">
+      <Filter>Resource Files\Fisiere Program\Utilizatori</Filter>
+    </Text>
+    <Text Include="restaurant_franta1.txt">
+      <Filter>Resource Files\Fisiere Program\Restaurante</Filter>
+    </Text>
+    <Text Include="restaurant_franta2.txt">
+      <Filter>Resource Files\Fisiere Program\Restaurante</Filter>
+    </Text>
+    <Text Include="restaurant_franta3.txt">
+      <Filter>Resource Files\Fisiere Program\Restaurante</Filter>
+    </Text>
+    <Text Include="restaurant_franta4.txt">
+      <Filter>Resource Files\Fisiere Program\Restaurante</Filter>
+    </Text>
+    <Text Include="obiectiv_turistic_franta1.txt">
+      <Filter>Resource Files\Fisiere Program\Obiective Turistice</Filter>
+    </Text>
+    <Text Include="obiectiv_turistic_franta2.txt">
+      <Filter>Resource Files\Fisiere Program\Obiective Turistice</Filter>
+    </Text>
+    <Text Include="obiectiv_turistic_franta3.txt">
+      <Filter>Resource Files\Fisiere Program\Obiective Turistice</Filter>
+    </Text>
+    <Text Include="obiectiv_turistic_franta4.txt">
+      <Filter>Resource Files\Fisiere Program\Obiective Turistice</Filter>
+    </Text>
+    <Text Include="obiectiv_turistic_franta5.txt">
+      <Filter>Resource Files\Fisiere Program\Obiective Turistice</Filter>
+    </Text>
+    <Text Include="cazare_franta1.txt">
+      <Filter>Resource Files\Fisiere Program\Cazari</Filter>
+    </Text>
+    <Text Include="cazare_franta2.txt">
+      <Filter>Resource Files\Fisiere Program\Cazari</Filter>
+    </Text>
+    <Text Include="cazare_franta3.txt">
+      <Filter>Resource Files\Fisiere Program\Cazari</Filter>
+    </Text>
+    <Text Include="cazare_franta4.txt">
+      <Filter>Resource Files\Fisiere Program\Cazari</Filter>
+    </Text>
+    <Text Include="ivanflorentin.txt">
+      <Filter>Resource Files\Fisiere Program\Utilizatori</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readME.md" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+Clasificare:4 stele
+Animale de companie:Interzise
+Numar de camere:12
+Tipuri de camere:3,Single-140,Double-230,Family-380
+Perioade aglomerate:2,30.04.2025, 01.05.2025
+Perioade libere:2,15.05.2025, 16.05.2025

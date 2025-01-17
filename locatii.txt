@@ -1,0 +1,21 @@
+cazare,Romania,Castelul Muntele Verde,cazare_romania.txt,2.75 / 5
+cazare,Franta,Hotel du Soleil,cazare_franta.txt,4 / 5
+cazare,Spania,Vila Paradiso,cazare_spania.txt,4.1 / 5
+cazare,Franta,Hotelul Le Parisien,cazare_franta1.txt,4 / 5
+cazare,Franta,Hotelul BelleVue,cazare_franta2.txt,4 / 5
+cazare,Franta,Hotelul Grand Lumiere,cazare_franta3.txt,4 / 5
+cazare,Franta,Hotelul Mont Blanc,cazare_franta4.txt,4 / 5
+restaurant,Romania,Restaurantul La Casuta,restaurant_romania.txt,3.3 / 5
+restaurant,Franta,Le Bistro Parisien,restaurant_franta.txt,2.6 / 5
+restaurant,Franta,Le Bistro,restaurant_franta1.txt,3.65 / 5
+restaurant,Franta,Le Jardin de Provence,restaurant_franta2.txt,3.8 / 5
+restaurant,Franta,La Maison de la Cuisine,restaurant_franta3.txt,4.1 / 5
+restaurant,Franta,L'Atelier de Gastronomie,restaurant_franta4.txt,4.5 / 5
+obiectiv turistic,Romania,Castelul Bran,obiectiv_turistic_romania.txt,4.7 / 5
+obiectiv turistic,Franta,Turnul Eiffel,obiectiv_turistic_franta.txt,4.9 / 5
+obiectiv turistic,Italia,Colosseum,obiectiv_turistic_italia.txt,4.8 / 5
+obiectiv turistic,Franta,Mont Saint-Michel,obiectiv_turistic_franta1.txt,4.8 / 5
+obiectiv turistic,Franta,Palatul Versailles,obiectiv_turistic_franta2.txt,4.9 / 5
+obiectiv turistic,Franta,Catedrala Notre-Dame,obiectiv_turistic_franta3.txt,4.7 / 5
+obiectiv turistic,Franta,Louvre,obiectiv_turistic_franta4.txt,4.45 / 5
+obiectiv turistic,Franta,Arcul de Triumf,obiectiv_turistic_franta5.txt,4.8 / 5
