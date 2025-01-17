@@ -4,19 +4,19 @@
 
 ##Structura folderelor
 In fereastra Solution Explorer,folderele sunt organizate dupa cum urmeaza:
---Singleton:
+--Singleton:  
        *CFileManager se ocupa cu gestionarea(citirea/scrierea)
            tuturor fisierelor text ce vor fi utilizate in cadrul programului.  
        *CBooking gestioneaza instantele de clienti si locatii(cazari/obiective turistice/restaurante) este responsabila pentru initializarea si 
-         legatura dintre acestea.
---Utilizatori:
-       *IUtilizator este o clasa de tip interface cu metode comune virtuale.(concept folosit:polimorfism).
-        **AUtilizator este o clasa abstracta din care derivez utilizatorii acestei aplicatii.(concept folosit:mostenire).
-         ***CUtilizator este clasa concreta de tip user.
---Locatii:
-       *ILocatie este o clasa de tip interfata cu metode pure virtuale din care derivez locatiile aplicatiei.
-        **ALocatie este o clasa abstracta cu membri comuni pentru clasele concrete:
-         +fiecare clasa concreta are metode+membri comuni,dar si particulari deoarece acestea reprezinta diverse locatii de interes.
+         legatura dintre acestea.  
+--Utilizatori:  
+       *IUtilizator este o clasa de tip interface cu metode comune virtuale.(concept folosit:polimorfism).  
+        **AUtilizator este o clasa abstracta din care derivez utilizatorii acestei aplicatii.(concept folosit:mostenire).  
+         ***CUtilizator este clasa concreta de tip user.  
+--Locatii:  
+       *ILocatie este o clasa de tip interfata cu metode pure virtuale din care derivez locatiile aplicatiei.  
+        **ALocatie este o clasa abstracta cu membri comuni pentru clasele concrete:  
+         +fiecare clasa concreta are metode+membri comuni,dar si particulari deoarece acestea reprezinta diverse locatii de interes.  
           ***CRestaurant
           ***CCazare
           ***CObiectivTuristic
