@@ -1,73 +1,73 @@
-# Booking-App
+# MTA TRAVELER: The Trip Assistant You Know You Need
 
-# MTA TRAVELER the trip assistant that you know you need
+## Descriere
 
-## Structura folderelor
-In fereastra Solution Explorer,folderele sunt organizate dupa cum urmeaza:  
--- Singleton:    
-       *CFileManager se ocupa cu gestionarea(citirea/scrierea)
-           tuturor fisierelor text ce vor fi utilizate in cadrul programului.  
-       *CBooking gestioneaza instantele de clienti si locatii(cazari/obiective turistice/restaurante) este responsabila pentru initializarea si 
-         legatura dintre acestea.  
--- Utilizatori:  
-       *IUtilizator este o clasa de tip interface cu metode comune virtuale.(concept folosit:polimorfism).  
-        **AUtilizator este o clasa abstracta din care derivez utilizatorii acestei aplicatii.(concept folosit:mostenire).  
-         ***CUtilizator este clasa concreta de tip user.  
---  Locatii:    
-       *ILocatie este o clasa de tip interfata cu metode pure virtuale din care derivez locatiile aplicatiei.  
-        **ALocatie este o clasa abstracta cu membri comuni pentru clasele concrete:  
-         +fiecare clasa concreta are metode+membri comuni,dar si particulari deoarece acestea reprezinta diverse locatii de interes.  
-          ***CRestaurant  
-          ***CCazare  
-          ***CObiectivTuristic  
---Fisiere Program:  
-       *locatii.txt fisier text cu liste ce cuprind:  
-         TIP_LOCATIE,TARA,DENUMIRE,FISIER_LOCATIE_PARTICULAR,RATING  
-       *Users.txt fisier text cu liste ce cuprind:  
-         NUME PRENUME UTILIZATOR,PAROLA,VARSTA,BUGET BANCNOTA,FISIER_USER_PARTICULAR  
-       *FISIER_LOCATIE_PARTICULAR : este specific pentru fiecare tip de cazare si contine detalii specifice despre acestea  
-       *FISIER_USER_PARTICULAR : retine pentru fiecare utilizator preferintele sale sub forma unui fisier text  
---CPlanificator:  
-       *este clasa de baza a aplicatiei care se bazeaza pe generarea programului de mese si vizitare din vacanta  
---PortofelElectronic:  
-       *este "portofelul" virtual al userului  
+MTA TRAVELER este o aplicație care ajută utilizatorii să își planifice vacanțele, oferind funcționalități pentru alegerea locațiilor de cazare, restaurante pentru mese și atracții turistice, toate într-o interfață simplă și ușor de folosit. Aplicația permite utilizatorilor să își salveze preferințele și să își modifice planurile de călătorie în funcție de nevoi.
 
-### Utilizare
-La rularea aplicatiei, in consola se afiseaza lista cu clientii inregistrati si toate locatiile valabile din aplicatie.  
-Logarea in aplicatie:  
-     -Daca persoana are deja cont se poate loga direct prin (NUME PRENUME) si parola  
-        -avand 3 incercari de a introduce parola corecta  
-           -- altfel apare un mesaj de eroare si il ajuta sa isi creeze un cont prin introducerea datelor aferente si a unui fisier de preferinte  
+## Structura Folderelor
 
-           **Toate modificarile sunt actualizate si salvate si vor fi regasite chiar si dupa inchiderea si redeschiderea aplicatiei.  
+În fereastra **Solution Explorer**, folderele sunt organizate astfel:
 
-           # MENIUL PRINCIPAL permite:  
-           1. PLanificarea unei calatorii  
-           1.1. Prin posibilitatea alegerii hotelului pe baza unor recomandari  
-           1.2. Selectarea restaurantelor pentru cele 3 mese din zi (MIC-DEJUN/PRANZ/CINA)  
-           1.3. Selectarea atractiilor pe care doreste sa le viziteze in zilele de vacanta  
+### **Singleton**:
+- **CFileManager** – Gestionează citirea/scrierea fișierelor text.
+- **CBooking** – Gestionează instanțele de clienți și locații (**cazări**, **restaurante**, **obiective turistice**).
 
-           2. Afisarea programului cu mesele de vacanta daca acesta exista  
+### **Utilizatori**:
+- **IUtilizator** – Interfață cu metode virtuale.
+- **AUtilizator** – Clasă abstractă pentru utilizatori.
+- **CUtilizator** – Clasă concretă de tip user.
 
-           3. Afisarea programului cu mesele de vacanta daca acesta exista  
+### **Locații**:
+- **ILocatie** – Interfață pentru locații.
+- **ALocatie** – Clasă abstractă pentru locațiile concrete.
+  - Fiecare clasă concretă are metode și membri comuni, dar și particularități, deoarece reprezintă diverse locații de interes:
+    - **CRestaurant**
+    - **CCazare**
+    - **CObiectivTuristic**
 
-           4. Modifica perioadele preferate  
+### **Fișiere Program**:
+- **locatii.txt** – Fișier ce conține lista locațiilor disponibile.
+- **Users.txt** – Fișier ce conține datele utilizatorilor.
+- **FISIER_LOCATIE_PARTICULAR** – Fișier specific fiecărui tip de locație.
+- **FISIER_USER_PARTICULAR** – Fișier ce păstrează preferințele utilizatorilor.
 
-           5. Modifica bugetul de calatorie   
+### **CPlanificator**:
+- Clasa care generează programul de vacanță pe baza alegerilor utilizatorului.
 
-           6. Modifica preferintele culinare  
+### **PortofelElectronic**:
+- "Portofelul" virtual al utilizatorului.
 
-           7. Modifica categoriile de vacante  
+## Cum să folosești aplicația
 
-           8. Adaugare Rating Hotel  
+1. **Instalare**:
+   - Clonează repository-ul:  
+     ```bash
+     git clone https://github.com/username/MTA-TRAVELER.git
+     ```
+   - Deschide proiectul în IDE-ul preferat.
 
-           9. Adauga Rating Restaurant  
+2. **Cum să rulezi aplicația**:
+   - Deschide aplicația în terminal sau IDE.
+   - La rularea aplicației, vei vedea lista cu clienții înregistrați și locațiile valabile din aplicație.
 
-           10. Adauga Rating Obiectiv Turistic  
+3. **Logare utilizator**:
+   - Dacă ai deja un cont, te poți loga folosind **NUME PRENUME** și parola.
+   - Dacă nu ai cont, poți să îți creezi unul și să îți adaugi un fișier cu preferințele.
 
-           11. Iesire din Aplicatie
+4. **Meniu principal**:
+   - Planifică-ți vacanța alegând **hoteluri**, **restaurante** și **atracții turistice**.
+   - Poți să vizualizezi și să modifici programul de vacanță, să îți actualizezi preferințele și să adaugi **ratinguri** pentru locații.
 
-PENTRU TESTARE RECOMAND ALEGEREA TARII FRANTA,am adaugat mai multe fisiere cu locatii pentru a avea o usoara vizualizare a functionalitatilor.
+## Contribuții
 
-I hope you like it.
-:)
+Dacă vrei să contribui la acest proiect, deschide o problemă sau trimite un pull request cu modificările tale.
+
+## Licență
+
+Distribuit sub licența **MIT**. Vedeți [LICENSE](LICENSE) pentru detalii.
+
+---
+
+**Testare recomandată**: Pentru o testare ușoară, alegeți țara **Franța**. Am adăugat mai multe fișiere cu locații pentru a facilita vizualizarea funcționalităților aplicației.
+
+I hope you like it! :)
