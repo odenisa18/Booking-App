@@ -19,11 +19,12 @@
 - [Testare recomandată 🏖️](#testare-recomandată)
 
 ---
-
+---
 ## Descriere 📖
 
-MTA TRAVELER este o aplicație care ajută utilizatorii să își planifice vacanțele, oferind funcționalități pentru alegerea locațiilor de cazare, restaurante pentru mese și atracții turistice, toate într-o interfață simplă și ușor de folosit. Aplicația permite utilizatorilor să își salveze preferințele și să își modifice planurile de călătorie în funcție de nevoi.
+MTA TRAVELER este o aplicație care ajută utilizatorii să își planifice vacanțele, oferind funcționalități pentru alegerea locațiilor de cazare, restaurante pentru mese și atracții turistice, toate într-o interfață simplă și ușor de folosit. Aplicația permite utilizatorilor să își salveze preferințele și să își modifice planurile de călătorie în funcție de nevoi.  
 
+ ---
 ## Structura Folderelor 🗂️
 
 În fereastra **Solution Explorer**, folderele sunt organizate astfel:
