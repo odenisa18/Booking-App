@@ -32,10 +32,12 @@ MTA TRAVELER este o aplicație care ajută utilizatorii să își planifice vaca
 
 În fereastra **Solution Explorer**, folderele sunt organizate astfel:
 
+---
 ### **Singleton 🧑‍💻**:
 - **CFileManager** – Gestionează citirea/scrierea fișierelor text.
 - **CBooking** – Gestionează instanțele de clienți și locații (**cazări**, **restaurante**, **obiective turistice**).
 
+---
 ### **Utilizatori 👤**:
 - **IUtilizator** – Interfață cu metode virtuale.
 - **AUtilizator** – Clasă abstractă pentru utilizatori.
