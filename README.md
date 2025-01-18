@@ -3,9 +3,9 @@
 ---
 
 ### Cuprins 📑
-- [Descriere](#Descriere)
-- [Structura Folderelor](#structura-folderelor)
-  - [Singleton](#singleton)
+- [Descriere 📖](#Descriere)
+- [Structura Folderelor 🗂️](#structura-folderelor)
+  - [Singleton 🧑‍💻](#singleton)
   - [Utilizatori 👤](#utilizatori)
   - [Locații 🌍](#locații)
   - [Fișiere Program 📂](#fișiere-program)
