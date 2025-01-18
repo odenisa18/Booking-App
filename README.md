@@ -3,11 +3,11 @@
 ---
 
 ### Cuprins 📑
-- [Descriere 📖](#Descriere)
+- [Descriere 📖](#descriere)
 - [Structura Folderelor 🗂️](#structura-folderelor)
   - [Singleton 🧑‍💻](#singleton)
   - [Utilizatori 👤](#utilizatori)
-  - [Locații 🌍](#locații)
+  - [Locatii 🌍](#locatii)
   - [Fișiere Program 📂](#fișiere-program)
   - [CPlanificator 🗓️](#cplanificator)
   - [PortofelElectronic 💳](#portofelelectronic)
@@ -47,7 +47,7 @@ MTA TRAVELER este o aplicație care ajută utilizatorii să își planifice vaca
 
 ---
 
-### **Locații 🌍**:
+### **Locatii 🌍**:
 - **ILocatie** – Interfață pentru locații.
 - **ALocatie** – Clasă abstractă pentru locațiile concrete.
   - Fiecare clasă concretă are metode și membri comuni, dar și particularități, deoarece reprezintă diverse locații de interes:
