@@ -1,5 +1,7 @@
 # MTA TRAVELER: The Trip Assistant You Know You Need ✈️
+
 ---
+
 ### Cuprins 📑
 - [Descriere](#Descriere)
 - [Structura Folderelor](#structura-folderelor)
@@ -19,12 +21,13 @@
 - [Testare recomandată 🏖️](#testare-recomandată)
 
 ---
----
+
 ## Descriere 📖
 
 MTA TRAVELER este o aplicație care ajută utilizatorii să își planifice vacanțele, oferind funcționalități pentru alegerea locațiilor de cazare, restaurante pentru mese și atracții turistice, toate într-o interfață simplă și ușor de folosit. Aplicația permite utilizatorilor să își salveze preferințele și să își modifice planurile de călătorie în funcție de nevoi.  
 
- ---
+---
+
 ## Structura Folderelor 🗂️
 
 În fereastra **Solution Explorer**, folderele sunt organizate astfel:
@@ -58,6 +61,8 @@ MTA TRAVELER este o aplicație care ajută utilizatorii să își planifice vaca
 ### **PortofelElectronic 💳**:
 - "Portofelul" virtual al utilizatorului.
 
+---
+
 ## Cum să folosești aplicația 💻
 
 1. **Instalare 🛠️**:
@@ -79,9 +84,13 @@ MTA TRAVELER este o aplicație care ajută utilizatorii să își planifice vaca
    - Planifică-ți vacanța alegând **hoteluri**, **restaurante** și **atracții turistice**.
    - Poți să vizualizezi și să modifici programul de vacanță, să îți actualizezi preferințele și să adaugi **ratinguri** pentru locații.
 
+---
+
 ## Contribuții 🤝
 
 Dacă vrei să contribui la acest proiect, deschide o problemă sau trimite un pull request cu modificările tale.
+
+---
 
 ## Licență 📜
 
