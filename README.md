@@ -22,7 +22,7 @@
 
 ---
 
-<div style="background-color: #ADD8E6; padding: 10px; border-radius: 5px;">
+<div style="background-color: #ADD8E6; padding: 10px; border-radius: 5px; font-family: 'Times New Roman', Times, serif;">
 ## Descriere 📖
 
 MTA TRAVELER este o aplicație care ajută utilizatorii să își planifice vacanțele, oferind funcționalități pentru alegerea locațiilor de cazare, restaurante pentru mese și atracții turistice, toate într-o interfață simplă și ușor de folosit. Aplicația permite utilizatorilor să își salveze **preferințele** și să își modifice **planurile de călătorie** în funcție de nevoi.  
@@ -30,6 +30,7 @@ MTA TRAVELER este o aplicație care ajută utilizatorii să își planifice vaca
 
 ---
 
+<div style="font-family: 'Times New Roman', Times, serif;">
 ## Structura Folderelor 🗂️
 
 În fereastra **Solution Explorer**, folderele sunt organizate astfel:
@@ -74,10 +75,11 @@ MTA TRAVELER este o aplicație care ajută utilizatorii să își planifice vaca
 
 ### **PortofelElectronic 💳**:
 - "**Portofelul**" virtual al utilizatorului.
+</div>
 
 ---
 
-<div style="background-color: #ADD8E6; padding: 10px; border-radius: 5px;">
+<div style="font-family: 'Times New Roman', Times, serif;">
 ## Cum să folosești aplicația 💻
 
 1. **Instalare 🛠️**:
@@ -104,19 +106,30 @@ MTA TRAVELER este o aplicație care ajută utilizatorii să își planifice vaca
 
 ---
 
+<div style="background-color: #ADD8E6; padding: 15px; margin-top: 10px; border-radius: 5px;">
+  <strong>Notă importantă:</strong> <br>
+  Aceste casete de text cu fundal albastru pot fi folosite pentru a evidenția informații importante sau pași esențiali în ghidul tău de utilizare. Modifică stilul casetelor pentru a adăuga funcționalități suplimentare.
+</div>
+
+---
+
+<div style="font-family: 'Times New Roman', Times, serif;">
 ## Contribuții 🤝
 
 Dacă vrei să contribui la acest proiect, deschide o problemă sau trimite un pull request cu modificările tale.
+</div>
 
 ---
 
+<div style="font-family: 'Times New Roman', Times, serif;">
 ## Licență 📜
 
 Distribuit sub licența **MIT**. Vedeți [LICENSE](LICENSE) pentru detalii.
+</div>
 
 ---
 
-<div style="background-color: #ADD8E6; padding: 10px; border-radius: 5px;">
+<div style="background-color: #ADD8E6; padding: 10px; border-radius: 5px; font-family: 'Times New Roman', Times, serif;">
 ## Testare recomandată 🏖️
 
 Pentru o testare ușoară, alegeți țara **Franța**. Am adăugat mai multe fișiere cu locații pentru a facilita vizualizarea funcționalităților aplicației.
