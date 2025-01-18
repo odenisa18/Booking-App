@@ -22,9 +22,11 @@
 
 ---
 
+<div style="background-color: #ADD8E6; padding: 10px; border-radius: 5px;">
 ## Descriere 📖
 
 MTA TRAVELER este o aplicație care ajută utilizatorii să își planifice vacanțele, oferind funcționalități pentru alegerea locațiilor de cazare, restaurante pentru mese și atracții turistice, toate într-o interfață simplă și ușor de folosit. Aplicația permite utilizatorilor să își salveze **preferințele** și să își modifice **planurile de călătorie** în funcție de nevoi.  
+</div>
 
 ---
 
@@ -75,6 +77,7 @@ MTA TRAVELER este o aplicație care ajută utilizatorii să își planifice vaca
 
 ---
 
+<div style="background-color: #ADD8E6; padding: 10px; border-radius: 5px;">
 ## Cum să folosești aplicația 💻
 
 1. **Instalare 🛠️**:
@@ -97,6 +100,7 @@ MTA TRAVELER este o aplicație care ajută utilizatorii să își planifice vaca
    - Poți să vizualizezi și să modifici **programul de vacanță**, să îți actualizezi **preferințele** și să adaugi **ratinguri** pentru locații.
 
    **Funcționalitate suplimentară**: Meniul principal va avea acum un fundal **albastru** pentru a îmbunătăți experiența vizuală.
+</div>
 
 ---
 
@@ -112,8 +116,10 @@ Distribuit sub licența **MIT**. Vedeți [LICENSE](LICENSE) pentru detalii.
 
 ---
 
+<div style="background-color: #ADD8E6; padding: 10px; border-radius: 5px;">
 ## Testare recomandată 🏖️
 
 Pentru o testare ușoară, alegeți țara **Franța**. Am adăugat mai multe fișiere cu locații pentru a facilita vizualizarea funcționalităților aplicației.
 
 I hope you like it! :)
+</div>
